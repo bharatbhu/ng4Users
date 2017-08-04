@@ -1,0 +1,9 @@
+<h3>
+  user new Component!
+</h3>
+<form (submit)='create()'>
+  <input type="text"name="first_name" [(ngModel)]="newUser.firstName">
+  <input type="text"name="last_name" [(ngModel)]="newUser.lastName">
+  <input type="text"name="email" [(ngModel)]="newUser.email">
+  <input type="submit">
+</form>
